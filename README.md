@@ -1,5 +1,5 @@
 # Coordinate Transformation Helper
-A gui tool to transform coordinate and rotation representation from one coordinate frame to another.
+A GUI tool designed for transforming coordinate and rotational representations between different coordinate frames.
 
 # Usage
 "Select the source and target frames by clicking on any of the pre-defined frames, or choose the orientations of the x-axis, y-axis, and z-axis individually using the dropdown menus. Be mindful of the quaternion order settings: use w, x, y, z for the Hamilton convention and x, y, z, w for the JPL convention.
