@@ -23,6 +23,12 @@
       <height>261</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
     <property name="title">
      <string>source frame</string>
     </property>
@@ -35,6 +41,12 @@
        <height>150</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
      <property name="autoFillBackground">
       <bool>false</bool>
      </property>
@@ -44,13 +56,25 @@
       <rect>
        <x>10</x>
        <y>190</y>
-       <width>311</width>
+       <width>320</width>
        <height>32</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <widget class="QPushButton" name="pbSrcOpenCV">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>OpenCV</string>
         </property>
@@ -58,6 +82,12 @@
       </item>
       <item>
        <widget class="QPushButton" name="pbSrcOpenGL">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>OpenGL</string>
         </property>
@@ -65,6 +95,12 @@
       </item>
       <item>
        <widget class="QPushButton" name="pbSrcIMU">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>IMU</string>
         </property>
@@ -72,6 +108,12 @@
       </item>
       <item>
        <widget class="QPushButton" name="pbSrcUnity">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>Unity</string>
         </property>
@@ -92,6 +134,12 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>右手</string>
      </property>
@@ -108,9 +156,21 @@
        <height>51</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
        <widget class="QRadioButton" name="rdbSrcWXYZ">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>w, x, y, z</string>
         </property>
@@ -121,6 +181,12 @@
       </item>
       <item row="1" column="0">
        <widget class="QRadioButton" name="rdbSrcXYZW">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>x, y, z, w</string>
         </property>
@@ -128,7 +194,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -137,9 +203,21 @@
        <height>86</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="1" column="0">
        <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>y轴：</string>
         </property>
@@ -150,6 +228,12 @@
       </item>
       <item row="2" column="0">
        <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>z轴：</string>
         </property>
@@ -160,6 +244,12 @@
       </item>
       <item row="0" column="1">
        <widget class="QComboBox" name="cbSrcX">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="currentText">
          <string/>
         </property>
@@ -170,6 +260,12 @@
       </item>
       <item row="2" column="1">
        <widget class="QComboBox" name="cbSrcZ">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="currentText">
          <string/>
         </property>
@@ -180,6 +276,12 @@
       </item>
       <item row="1" column="1">
        <widget class="QComboBox" name="cbSrcY">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="currentText">
          <string/>
         </property>
@@ -190,6 +292,12 @@
       </item>
       <item row="0" column="0">
        <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>x轴：</string>
         </property>
@@ -201,15 +309,10 @@
      </layout>
     </widget>
     <zorder>layoutWidget</zorder>
+    <zorder>layoutWidget</zorder>
     <zorder>wFrameSrc</zorder>
     <zorder>layoutWidget</zorder>
     <zorder>lSrcHandness</zorder>
-    <zorder>label</zorder>
-    <zorder>label_2</zorder>
-    <zorder>label_3</zorder>
-    <zorder>cbSrcX</zorder>
-    <zorder>cbSrcY</zorder>
-    <zorder>cbSrcZ</zorder>
    </widget>
    <widget class="QTextEdit" name="teLog">
     <property name="geometry">
@@ -219,6 +322,12 @@
       <width>341</width>
       <height>241</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>7</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QWidget" name="wFormula" native="true">
@@ -230,6 +339,12 @@
       <height>211</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QGroupBox" name="gbTar">
     <property name="geometry">
@@ -239,6 +354,12 @@
       <width>331</width>
       <height>261</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>7</pointsize>
+     </font>
     </property>
     <property name="title">
      <string>target frame</string>
@@ -252,6 +373,12 @@
        <height>150</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
      <property name="autoFillBackground">
       <bool>false</bool>
      </property>
@@ -261,13 +388,25 @@
       <rect>
        <x>10</x>
        <y>190</y>
-       <width>311</width>
+       <width>320</width>
        <height>32</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
        <widget class="QPushButton" name="pbTarOpenCV">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>OpenCV</string>
         </property>
@@ -275,6 +414,12 @@
       </item>
       <item>
        <widget class="QPushButton" name="pbTarOpenGL">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>OpenGL</string>
         </property>
@@ -282,6 +427,12 @@
       </item>
       <item>
        <widget class="QPushButton" name="pbTarIMU">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>IMU</string>
         </property>
@@ -289,6 +440,12 @@
       </item>
       <item>
        <widget class="QPushButton" name="pbTarUnity">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>Unity</string>
         </property>
@@ -304,6 +461,12 @@
        <width>60</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>右手</string>
@@ -321,9 +484,21 @@
        <height>51</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
      <layout class="QGridLayout" name="gridLayout_3">
       <item row="0" column="0">
        <widget class="QRadioButton" name="rdbTarWXYZ">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>w, x, y, z</string>
         </property>
@@ -334,6 +509,12 @@
       </item>
       <item row="1" column="0">
        <widget class="QRadioButton" name="rdbTarXYZW">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>x, y, z, w</string>
         </property>
@@ -350,9 +531,21 @@
        <height>86</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
      <layout class="QGridLayout" name="gridLayout_4">
       <item row="1" column="0">
        <widget class="QLabel" name="label_4">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>y轴：</string>
         </property>
@@ -363,6 +556,12 @@
       </item>
       <item row="2" column="0">
        <widget class="QLabel" name="label_5">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>z轴：</string>
         </property>
@@ -373,6 +572,12 @@
       </item>
       <item row="0" column="1">
        <widget class="QComboBox" name="cbTarX">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="currentText">
          <string/>
         </property>
@@ -383,6 +588,12 @@
       </item>
       <item row="2" column="1">
        <widget class="QComboBox" name="cbTarZ">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="currentText">
          <string/>
         </property>
@@ -393,6 +604,12 @@
       </item>
       <item row="1" column="1">
        <widget class="QComboBox" name="cbTarY">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="currentText">
          <string/>
         </property>
@@ -403,6 +620,12 @@
       </item>
       <item row="0" column="0">
        <widget class="QLabel" name="label_6">
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei UI</family>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>x轴：</string>
         </property>
@@ -423,6 +646,12 @@
       <height>32</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>Transform</string>
     </property>
@@ -434,7 +663,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>24</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
