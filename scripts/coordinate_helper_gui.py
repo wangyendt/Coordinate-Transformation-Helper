@@ -16,7 +16,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-from ui.coordinate_transformation_helper import Ui_MainWindow
+from coordinate_transformation_helper import Ui_MainWindow
 
 
 def count_inversions(sequence):
