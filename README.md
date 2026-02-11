@@ -12,13 +12,9 @@ Both are configured in separate tabs and combined automatically when you click `
 
 ## UI Preview
 
-### Frame Transform Tab
-
-![Frame Transform Tab](docs/images/tab-frame-transform.png)
-
-### Wear Transform Tab
-
-![Wear Transform Tab](docs/images/tab-wear-transform.png)
+| Frame Transform Tab | Wear Transform Tab |
+|---|---|
+| ![Frame Transform Tab](docs/images/tab-frame-transform.png)<br>Configure source/target axis conventions and quaternion order. | ![Wear Transform Tab](docs/images/tab-wear-transform.png)<br>Configure source/target wrist+crown wear modes for watch scenarios. |
 
 ## Application Scenarios
 

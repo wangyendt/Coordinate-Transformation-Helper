@@ -11,13 +11,9 @@ Language: [English](README.md) | **中文**
 
 ## UI 预览
 
-### 坐标系变换页签
-
-![坐标系变换页签](docs/images/tab-frame-transform.png)
-
-### 佩戴模式页签
-
-![佩戴模式页签](docs/images/tab-wear-transform.png)
+| 坐标系变换页签 | 佩戴模式页签 |
+|---|---|
+| ![坐标系变换页签](docs/images/tab-frame-transform.png)<br>配置 source/target 坐标轴方向与四元数顺序。 | ![佩戴模式页签](docs/images/tab-wear-transform.png)<br>配置 source/target 左右手与表冠左右模式。 |
 
 ## 为什么需要两类转换
 
